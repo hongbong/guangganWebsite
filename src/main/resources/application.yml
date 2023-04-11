@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/guanggan?serverTimezone=UTC
+  main:
+    allow-bean-definition-overriding: true #允许bean定义覆盖
+open:
+  ai:
+    key: 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
+    model: text-davinci-003
+    request:
+      timeout: 100000
